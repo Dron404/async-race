@@ -1,0 +1,15 @@
+@keyframes move {
+  from {
+    left: 0px;
+  }
+  to {
+    left: calc(100% - 80px);
+  }
+}
+
+.car {
+  position: relative;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
